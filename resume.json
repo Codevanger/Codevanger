@@ -1,0 +1,1216 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/jsonresume.org/master/packages/schema/schema.json",
+  "basics": {
+    "name": "Igor Rybakov",
+    "label": "Senior Fullstack Engineer / Tech Lead (TypeScript, React, Node.js)",
+    "email": "codevanger@gmail.com",
+    "location": {
+      "city": "Kaliningrad",
+      "countryCode": "RU"
+    },
+    "summary": "Senior Fullstack Engineer and technical lead with 8+ years of experience building B2B platforms and leading a team of 5 developers. Built Spairtech end to end with TypeScript, React, Next.js, NestJS, PostgreSQL, Elasticsearch, Docker, and CI/CD, including product search across a 550,000-SKU catalog. Re-architected an enterprise GIS platform, reducing rendering time for 100,000+ objects from 3.5 seconds to 200 ms and critical production bugs by 55%.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Codevanger",
+        "url": "https://github.com/Codevanger"
+      },
+      {
+        "network": "Telegram",
+        "username": "codevanger",
+        "url": "https://t.me/codevanger"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "codevanger",
+        "url": "https://www.linkedin.com/in/codevanger/"
+      }
+    ],
+    "x-secondaryEmail": "me@codevanger.su",
+    "x-about": [
+      "My name is Igor. I'm from Kaliningrad, Russia.",
+      "I'm a TypeScript / JavaScript engineer with 8 years experience.",
+      "I'm a full-stack developer, but I prefer to work on frontend side.",
+      "I write Rust/WASM when JavaScript isn't enough.",
+      "My favorite game — Vangers"
+    ],
+    "x-resumeFooter": "99% of HR stop looking for candidates before finding “the right one”."
+  },
+  "work": [
+    {
+      "name": "VS Industrie GmbH",
+      "position": "Fullstack Engineer / Technical Owner",
+      "startDate": "2026-02",
+      "summary": "Sole responsibility for development and operation of Spairtech, a technical platform for an industrial equipment distributor. Work type: Freelance",
+      "highlights": [
+        "Acted as the sole technical owner, designing and building the 'Spairtech' B2B platform from the ground up, replacing fragmented legacy systems and manual Excel workflows.",
+        "Developed a full-stack CRM and public-facing e-commerce catalog using React, Next.js, NestJS, and Elasticsearch, including product search across 550,000 SKUs, customer management, orders, SIP telephony, and marketing campaigns (email and calls).",
+        "Built three AI systems: a knowledge-base-driven assistant helping managers use and configure the platform, including forms, dashboards, and company settings; AI crawlers combining public web research with internal database data to propose or apply product card updates; and a pilot voice AI operator integrating streaming speech recognition, interruption handling, LLM-driven dialogue, speech synthesis, and CRM reporting.",
+        "Overhauled the company's infrastructure: decommissioned a legacy PBX, consolidated servers, and replaced OpenVPN with WireGuard, cutting monthly infrastructure costs by over 50%."
+      ],
+      "url": "https://spairtech.ru/",
+      "x-id": "vs",
+      "x-factIds": [
+        "vs-platform-ownership",
+        "vs-crm-catalog",
+        "vs-ai-systems",
+        "vs-infrastructure-overhaul"
+      ],
+      "x-technologies": [
+        "React",
+        "Next.js",
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ",
+        "Elasticsearch",
+        "Docker",
+        "Linux",
+        "CI/CD",
+        "Asterisk",
+        "FreePBX",
+        "WireGuard",
+        "GraphQL"
+      ],
+      "x-tips": [
+        "Tip: Hiring for full-stack? This role spans React, NestJS, AI and infrastructure.",
+        "Tip: Need a technical owner? Spairtech was built and operated end to end."
+      ],
+      "x-historyNote": "The engagement began as evening freelance work alongside the main job."
+    },
+    {
+      "name": "Big3 / A.PRO",
+      "position": "Senior → Lead Frontend Engineer",
+      "startDate": "2022-05",
+      "summary": "Development of an enterprise GIS platform for environmental operations and logistics.",
+      "highlights": [
+        "Promoted to Lead Frontend Engineer, mentoring and managing a team of 5 developers through performance reviews, task allocation, and code quality leadership.",
+        "Drastically improved GIS platform performance by re-architecting the map rendering logic, cutting the display time for 100,000+ markers from 3.5 seconds to under 200ms, and cut regression and progression critical bugs by over 55% (from 61 in Q4 2024 to 27 in Q1 2025) in the following six months.",
+        "Developed a client-side cache using Rust/WASM and IndexedDB, which reduced dashboard CPU usage from 120% to 80%.",
+        "Architected and built a reusable, component-based UI system and a unified integration layer for geoservice APIs, standardizing development and accelerating feature delivery across teams.",
+        "Eliminated a major development bottleneck by replacing hardcoded form configurations with a dynamic admin panel, saving an estimated 2-3 hours of dev and QA time per task.",
+        "Added E2E testing with Cypress, unit testing with Jest, and JSDoc documentation with coverage percentage checks to prevent regressions.",
+        "Built internal operator tools for monitoring, adding, and moderating vehicle trackers, including authorization, filters, and tables."
+      ],
+      "url": "https://big3.ru/",
+      "x-id": "big3",
+      "x-factIds": [
+        "big3-leadership-rewrite",
+        "big3-performance-quality-rewrite",
+        "big3-cache-cpu-rewrite",
+        "big3-ui-geo-rewrite",
+        "big3-forms-rewrite",
+        "big3-testing-documentation",
+        "big3-trackers"
+      ],
+      "x-technologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "NgRx",
+        "Rust",
+        "WebAssembly",
+        "Leaflet",
+        "Python",
+        "Django",
+        "SCSS",
+        "Node.js",
+        "Jest",
+        "Cypress"
+      ],
+      "x-tips": [
+        "Tip: Need frontend performance? 100,000+ map markers now render in under 200 ms.",
+        "Tip: Need a technical lead? I mentored five developers in this role."
+      ],
+      "endDate": "2026-07",
+      "x-rolePeriods": [
+        {
+          "startDate": "2022-05",
+          "endDate": "2023-08",
+          "position": "Senior Frontend Engineer"
+        },
+        {
+          "startDate": "2023-08",
+          "endDate": "2026-07",
+          "position": "Lead Frontend Engineer"
+        }
+      ],
+      "x-employerPeriods": [
+        {
+          "startDate": "2022-05",
+          "endDate": "2025-08",
+          "name": "Big3"
+        },
+        {
+          "startDate": "2025-08",
+          "endDate": "2026-07",
+          "name": "A.PRO"
+        }
+      ],
+      "x-transferNote": "Transferred in August 2025 to A.PRO, a subsidiary of Big3 and REO.",
+      "x-platformScale": {
+        "regions": 12,
+        "vehiclesLowerBound": 2000,
+        "scope": "whole_platform"
+      },
+      "x-team": {
+        "otherDevelopers": 5,
+        "includingSelf": 6
+      },
+      "x-reportedMetrics": [
+        {
+          "metric": "Terminal task duration",
+          "reductionFactor": 4,
+          "scope": "Selected Terminal tasks compared in the author performance review using two task examples",
+          "basis": "author_reported_comparison",
+          "period": "2025-H1"
+        }
+      ]
+    },
+    {
+      "name": "Societe Generale",
+      "position": "Senior Frontend Engineer",
+      "startDate": "2021-07",
+      "summary": "MVP dashboard for monitoring currencies and stock market indices.",
+      "highlights": [
+        "Developed and delivered an MVP for a currency and stock market monitoring dashboard, enabling traders to use configurable layouts and workspaces.",
+        "Built a flexible subscription engine allowing users to create custom alerts based on user-defined formulas and triggers.",
+        "Engineered the core UI with modular, reusable components, setting the foundation for future feature expansion."
+      ],
+      "url": "https://www.societegenerale.com/",
+      "x-id": "rosbank",
+      "x-factIds": [
+        "ros-dashboard",
+        "ros-subscriptions",
+        "ros-config"
+      ],
+      "x-technologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "SCSS"
+      ],
+      "x-tips": [
+        "Tip: Hiring for fintech? This role delivered a real-time market monitoring dashboard.",
+        "Tip: Need reusable UI? This role established modular Angular components."
+      ],
+      "endDate": "2022-05",
+      "x-skillExposure": [
+        {
+          "skill": "React",
+          "scope": "limited_incidental"
+        }
+      ],
+      "x-startDatePrecision": "Started at the July/August 2021 boundary; month normalized to July."
+    },
+    {
+      "name": "SmartDeal",
+      "position": "Sole Frontend Engineer",
+      "startDate": "2020-02",
+      "summary": "Frontend development for a real estate transaction automation product.",
+      "highlights": [
+        "As the sole frontend developer, owned the entire user-facing application for a real estate transaction platform, which was later acquired by industry leaders CIAN and PSB.",
+        "Built a dynamic document generation system supporting 17+ document types with customizable templates, automating a critical part of the transaction workflow.",
+        "Implemented SMS-based electronic signing and real-time application status tracking, significantly improving user experience and transaction speed."
+      ],
+      "url": "https://smartdeal.pro/",
+      "x-id": "smartdeal",
+      "x-factIds": [
+        "smart-ownership-acquisition",
+        "smart-generation-rewrite",
+        "smart-signing-tracking"
+      ],
+      "x-technologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "x-tips": [
+        "Tip: Need product ownership? Igor owned the entire user-facing application.",
+        "Tip: Hiring for automation? This role delivered 17+ document types and SMS signing."
+      ],
+      "endDate": "2021-07",
+      "x-skillExposure": [
+        {
+          "skill": "React",
+          "scope": "limited_incidental"
+        }
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Fullstack Engineer",
+      "startDate": "2020-07",
+      "summary": "MVP application with an interactive map for a civic campaign in the Komi Republic.",
+      "highlights": [
+        "Built an MVP in three days with an interactive map, voting and feedback; deployed ASP.NET Core, MS SQL and Angular/Ionic, then handed the system to the customer for launch."
+      ],
+      "url": "https://fl.ru/",
+      "x-id": "civic",
+      "x-factIds": [
+        "civic-mvp"
+      ],
+      "x-technologies": [
+        "Angular",
+        "Ionic",
+        "ASP.NET Core",
+        "MS SQL"
+      ],
+      "x-tips": [
+        "Tip: Need fast delivery? This full-stack MVP was built in three days.",
+        "Tip: Hiring for GIS? This project combined an interactive map, voting and feedback."
+      ],
+      "endDate": "2020-07"
+    },
+    {
+      "name": "ETAI",
+      "position": "Fullstack Engineer",
+      "startDate": "2018-02",
+      "summary": "Development of an EMR/EHR platform and eTIME, a project management application.",
+      "highlights": [
+        "Built interactive SVG anatomy maps with predefined regions and medical labels, replacing manual drawing and labeling by clinicians.",
+        "Developed a C# scanning service on .NET Framework 4.5: a WebSocket devices command listed scanners, while scan with a device ID returned a base64 image to the browser.",
+        "Developed SQL scripts for updating medication data and ICD-10/ICD-11 classifications.",
+        "Built the eTIME frontend from scratch, including registration, boards, tasks, comments, profiles and workspaces.",
+        "Implemented task update synchronization through WebSocket/SignalR and workspace onboarding through email invitations."
+      ],
+      "url": "https://etai-group.com/",
+      "x-id": "etai",
+      "x-factIds": [
+        "etai-anatomy",
+        "etai-scanning",
+        "etai-data",
+        "etai-etime",
+        "etai-sync"
+      ],
+      "x-technologies": [
+        "Angular",
+        "C#",
+        "ASP.NET",
+        "ASP.NET Core",
+        "SQL",
+        "MS SQL",
+        "WebSocket",
+        "SignalR",
+        "jQuery",
+        "VBScript",
+        "LINQ"
+      ],
+      "x-tips": [
+        "Tip: Hiring for healthcare? This role covered EMR/EHR and medical data workflows.",
+        "Tip: Need real-time experience? eTIME used WebSocket and SignalR synchronization."
+      ],
+      "endDate": "2020-02"
+    }
+  ],
+  "publications": [
+    {
+      "name": "How to Speed Up a GIS Platform and Keep Your Sanity (Mostly)",
+      "publisher": "LinkedIn",
+      "releaseDate": "2026-02-26",
+      "url": "https://www.linkedin.com/pulse/how-speed-up-gis-platform-keep-your-sanity-mostly-igor-rybakov-welwf/",
+      "summary": "A discussion of modular map architecture and client-side caching with Rust/WASM and IndexedDB.",
+      "x-id": "gis-performance"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "Angular",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "RxJS",
+        "NgRx",
+        "Electron",
+        "Jest",
+        "Cypress"
+      ],
+      "x-id": "frontend"
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Node.js",
+        "NestJS",
+        "Python",
+        "Django",
+        "GraphQL",
+        "Microservices"
+      ],
+      "x-id": "backend"
+    },
+    {
+      "name": "Performance",
+      "keywords": [
+        "Rust",
+        "WebAssembly"
+      ],
+      "x-id": "performance"
+    },
+    {
+      "name": "Data & Messaging",
+      "keywords": [
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ",
+        "Elasticsearch",
+        "MS SQL",
+        "SQLite"
+      ],
+      "x-id": "data-messaging"
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "Nginx",
+        "AWS",
+        "CI/CD"
+      ],
+      "x-id": "devops"
+    },
+    {
+      "name": "GIS",
+      "keywords": [
+        "Leaflet",
+        "Geoservice APIs"
+      ],
+      "x-id": "gis"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native",
+      "x-id": "ru"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency (C1)",
+      "x-id": "en"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Programming"
+    },
+    {
+      "name": "Gaming"
+    },
+    {
+      "name": "Board games"
+    },
+    {
+      "name": "Plastic modeling"
+    },
+    {
+      "name": "Reading"
+    }
+  ],
+  "projects": [
+    {
+      "name": "active-inference",
+      "description": "An Active Inference implementation in TypeScript/JavaScript published as an npm package.",
+      "url": "https://www.npmjs.com/package/active-inference",
+      "keywords": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "roles": [
+        "Creator"
+      ],
+      "x-id": "active-inference"
+    },
+    {
+      "name": "TypeMUD",
+      "description": "A modular MUD/roguelike platform with an Angular/Electron client, Deno/WebSocket server and NestJS API.",
+      "url": "https://github.com/Codevanger/TypeMUD-Instance",
+      "keywords": [
+        "Angular",
+        "Electron",
+        "Deno",
+        "WebSocket",
+        "NestJS"
+      ],
+      "roles": [
+        "Creator"
+      ],
+      "x-id": "typemud",
+      "x-status": "development_paused",
+      "x-statusAsOf": "2026-10-01",
+      "x-links": [
+        {
+          "name": "Client",
+          "url": "https://github.com/Codevanger/TypeMUD-Client",
+          "description": "Angular, Electron"
+        },
+        {
+          "name": "Server",
+          "url": "https://github.com/Codevanger/TypeMUD-Instance",
+          "description": "Deno, WebSocket"
+        },
+        {
+          "name": "WebAPI",
+          "url": "https://github.com/Codevanger/TypeMUD-WebAPI",
+          "description": "NestJS, TypeORM"
+        }
+      ]
+    },
+    {
+      "name": "Nights of the Sleeping God",
+      "description": "A Rust game available in Steam Early Access; development continues.",
+      "url": "https://store.steampowered.com/app/4620980/Nights_of_the_Sleeping_God/",
+      "keywords": [
+        "Rust"
+      ],
+      "roles": [
+        "Creator"
+      ],
+      "x-id": "notsg",
+      "x-status": "early_access",
+      "x-releaseDate": "2026-05-30",
+      "x-statusAsOf": "2026-10-01"
+    },
+    {
+      "name": "This site!",
+      "description": "Personal site built with XP.css.",
+      "url": "https://github.com/Codevanger/Home-Page",
+      "keywords": [
+        "XP.css"
+      ],
+      "roles": [
+        "Creator"
+      ],
+      "x-id": "homepage",
+      "x-links": [
+        {
+          "name": "XP.css",
+          "url": "https://github.com/botoxparty/XP.css"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://github.com/Codevanger/Codevanger/blob/main/resume.json",
+    "version": "1.0.0",
+    "lastModified": "2026-11-03T00:00:00",
+    "locale": "en",
+    "language": "en"
+  },
+  "x-facts": [
+    {
+      "id": "vs-crm",
+      "employmentId": "vs",
+      "text": "Designed and built a CRM from scratch, unifying customers, orders, catalog, communications, telephony and email campaigns; replaced legacy software and fragmented Excel workflows.",
+      "tags": [
+        "fullstack",
+        "architecture",
+        "crm"
+      ]
+    },
+    {
+      "id": "vs-catalog",
+      "employmentId": "vs",
+      "text": "Built and launched a B2B website and catalog, covering frontend, backend, data modeling, search, SEO, CRM integration and deployment.",
+      "tags": [
+        "frontend",
+        "backend",
+        "search",
+        "seo"
+      ]
+    },
+    {
+      "id": "vs-ai-catalog",
+      "employmentId": "vs",
+      "text": "Built an agentic AI pipeline to generate product pages from technical documentation.",
+      "tags": [
+        "ai",
+        "automation",
+        "data-extraction"
+      ],
+      "reportedMetrics": {
+        "manualWorkReductionApproxPercent": 70,
+        "seoCoverageBeforePercent": 10,
+        "seoCoverageAfterPercent": 78,
+        "measurement": "author_reported_estimate",
+        "completeCardFields": [
+          "FAQ",
+          "technical data",
+          "image",
+          "description",
+          "name",
+          "part number",
+          "related products"
+        ]
+      }
+    },
+    {
+      "id": "vs-ai-voice",
+      "employmentId": "vs",
+      "text": "Developed a pilot AI voice operator using streaming ASR, VAD/barge-in, an LLM, text-to-speech and CRM reporting.",
+      "tags": [
+        "ai",
+        "realtime",
+        "integration"
+      ],
+      "stage": "pilot"
+    },
+    {
+      "id": "vs-telephony",
+      "employmentId": "vs",
+      "text": "Integrated Asterisk/FreePBX into the CRM, linking calls to customers and providing interaction history, notes and a database-generated phone book.",
+      "tags": [
+        "telephony",
+        "integration",
+        "crm"
+      ]
+    },
+    {
+      "id": "vs-goip",
+      "employmentId": "vs",
+      "text": "Connected GoIP gateways and SIM cards from different countries and configured routing with local numbers for customers in Germany and Russia.",
+      "tags": [
+        "telephony",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "vs-email",
+      "employmentId": "vs",
+      "text": "Built templated email campaigns personalized with CRM data for marketing and reactivation.",
+      "tags": [
+        "automation",
+        "crm"
+      ]
+    },
+    {
+      "id": "vs-assistant",
+      "employmentId": "vs",
+      "text": "Added a read-only AI assistant for customer search, interaction history analysis and email drafting.",
+      "tags": [
+        "ai",
+        "crm"
+      ]
+    },
+    {
+      "id": "vs-infra",
+      "employmentId": "vs",
+      "text": "Modernized infrastructure by retiring an obsolete PBX and redundant server, simplifying the network and replacing OpenVPN with WireGuard. More than halved infrastructure costs.",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "cost-reduction"
+      ],
+      "metrics": {
+        "costBefore": 7000,
+        "costAfter": 3000,
+        "currency": null,
+        "billingPeriod": null
+      }
+    },
+    {
+      "id": "vs-operations",
+      "employmentId": "vs",
+      "text": "Independently operated PostgreSQL, Redis, RabbitMQ, Elasticsearch, Docker, Linux, CI/CD, networking and integrations.",
+      "tags": [
+        "devops",
+        "backend",
+        "operations"
+      ]
+    },
+    {
+      "id": "big3-lead",
+      "employmentId": "big3",
+      "text": "Led five developers, covering task estimation and allocation, performance reviews, mentoring and delivery of team tasks.",
+      "tags": [
+        "leadership",
+        "mentoring",
+        "delivery"
+      ]
+    },
+    {
+      "id": "big3-map",
+      "employmentId": "big3",
+      "text": "Reduced rendering time for a map with 100,000 markers from 3.5 seconds to 200 ms by separating monolithic logic into independent layers.",
+      "tags": [
+        "frontend",
+        "gis",
+        "performance",
+        "architecture"
+      ],
+      "metrics": {
+        "markers": 100000,
+        "beforeMs": 3500,
+        "afterMs": 200
+      }
+    },
+    {
+      "id": "big3-cache",
+      "employmentId": "big3",
+      "text": "Developed a Rust/WASM client-side cache in a browser worker with IndexedDB, adaptive batching, delta synchronization and local filtering.",
+      "tags": [
+        "frontend",
+        "rust",
+        "wasm",
+        "performance"
+      ]
+    },
+    {
+      "id": "big3-cpu",
+      "employmentId": "big3",
+      "text": "Reduced average dashboard CPU utilization during database access from 120% to 80% under comparable workload through client-side caching and filtering.",
+      "tags": [
+        "performance",
+        "caching"
+      ],
+      "metrics": {
+        "beforePercent": 120,
+        "afterPercent": 80,
+        "aggregation": "average",
+        "conditions": "comparable workload",
+        "metric": "CPU utilization observed in dashboard during database access"
+      }
+    },
+    {
+      "id": "big3-bugs",
+      "employmentId": "big3",
+      "text": "Following the Terminal refactor, reported blocker and critical bugs decreased from 61 in H2 2024 to 27 in H1 2025.",
+      "tags": [
+        "quality",
+        "architecture"
+      ],
+      "metrics": {
+        "before": 61,
+        "after": 27,
+        "beforePeriod": "2024-H2",
+        "afterPeriod": "2025-H1",
+        "severity": [
+          "blocker",
+          "critical"
+        ]
+      }
+    },
+    {
+      "id": "big3-config",
+      "employmentId": "big3",
+      "text": "Moved Terminal form configuration from hardcoded templates to an admin panel, saving an average of 2–3 hours per relevant task across development, testing, regression checks and deployment.",
+      "tags": [
+        "frontend",
+        "architecture",
+        "developer-productivity"
+      ]
+    },
+    {
+      "id": "big3-response",
+      "employmentId": "big3",
+      "text": "Reduced Terminal response time from 3 seconds to 0.3 seconds in load testing.",
+      "tags": [
+        "performance"
+      ],
+      "metrics": {
+        "beforeMs": 3000,
+        "afterMs": 300,
+        "scenario": "Terminal response in load testing"
+      }
+    },
+    {
+      "id": "big3-signing",
+      "employmentId": "big3",
+      "text": "Worked with a colleague to modularize electronic signing, separating NCALayer and CryptoPro into provider integrations.",
+      "tags": [
+        "architecture",
+        "integration",
+        "electronic-signing"
+      ]
+    },
+    {
+      "id": "big3-geo",
+      "employmentId": "big3",
+      "text": "Unified geoservice APIs through a common integration layer supporting multiple providers.",
+      "tags": [
+        "gis",
+        "integration",
+        "architecture"
+      ]
+    },
+    {
+      "id": "big3-trackers",
+      "employmentId": "big3",
+      "text": "Built tools for monitoring, adding and moderating vehicle trackers, with authorization, filters and tables.",
+      "tags": [
+        "frontend",
+        "gis"
+      ]
+    },
+    {
+      "id": "big3-mobile",
+      "employmentId": "big3",
+      "text": "Adapted a legacy application for mobile devices and tablets.",
+      "tags": [
+        "frontend",
+        "responsive",
+        "legacy"
+      ]
+    },
+    {
+      "id": "big3-documents",
+      "employmentId": "big3",
+      "text": "Extended document workflows with batch signing, reconciliation and bulk route transfers.",
+      "tags": [
+        "frontend",
+        "automation"
+      ]
+    },
+    {
+      "id": "big3-ui",
+      "employmentId": "big3",
+      "text": "Created a reusable component-based UI architecture configurable for different customers.",
+      "tags": [
+        "frontend",
+        "architecture"
+      ]
+    },
+    {
+      "id": "big3-analytics",
+      "employmentId": "big3",
+      "text": "Developed map-based visual analytics and contributed to Python/Django backend filtering and bug fixes.",
+      "tags": [
+        "gis",
+        "frontend",
+        "backend"
+      ]
+    },
+    {
+      "id": "big3-docs",
+      "employmentId": "big3",
+      "text": "Introduced project and code documentation for developers, analysts, implementation and QA teams.",
+      "tags": [
+        "documentation",
+        "leadership"
+      ]
+    },
+    {
+      "id": "big3-contract",
+      "employmentId": "big3",
+      "text": "Contributed to frontend technical requirements and task planning for a contract in Kazakhstan.",
+      "tags": [
+        "requirements",
+        "leadership"
+      ]
+    },
+    {
+      "id": "big3-qa",
+      "employmentId": "big3",
+      "text": "Promoted performance-focused development and helped define QA metrics.",
+      "tags": [
+        "performance",
+        "quality"
+      ]
+    },
+    {
+      "id": "ros-dashboard",
+      "employmentId": "rosbank",
+      "text": "Developed and delivered an MVP for a currency and stock market monitoring dashboard, enabling traders to use configurable layouts and workspaces.",
+      "tags": [
+        "frontend",
+        "fintech"
+      ]
+    },
+    {
+      "id": "ros-subscriptions",
+      "employmentId": "rosbank",
+      "text": "Built a flexible subscription engine allowing users to create custom alerts based on user-defined formulas and triggers.",
+      "tags": [
+        "frontend",
+        "realtime",
+        "architecture"
+      ]
+    },
+    {
+      "id": "ros-config",
+      "employmentId": "rosbank",
+      "text": "Engineered the core UI with modular, reusable components, setting the foundation for future feature expansion.",
+      "tags": [
+        "frontend",
+        "ui"
+      ]
+    },
+    {
+      "id": "smart-ownership",
+      "employmentId": "smartdeal",
+      "text": "Owned the frontend of the entire product as its sole frontend developer.",
+      "tags": [
+        "frontend",
+        "ownership"
+      ]
+    },
+    {
+      "id": "smart-generation",
+      "employmentId": "smartdeal",
+      "text": "Built document generation for real estate transactions with 17 document types and customizable templates.",
+      "tags": [
+        "frontend",
+        "automation"
+      ]
+    },
+    {
+      "id": "smart-signing",
+      "employmentId": "smartdeal",
+      "text": "Implemented SMS-based electronic signing.",
+      "tags": [
+        "integration",
+        "electronic-signing"
+      ]
+    },
+    {
+      "id": "smart-monitoring",
+      "employmentId": "smartdeal",
+      "text": "Implemented application status monitoring and data updates.",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "id": "smart-acquisition",
+      "employmentId": "smartdeal",
+      "text": "Worked on a product subsequently acquired by CIAN and PSB.",
+      "tags": [
+        "product"
+      ],
+      "scope": "product_history_not_individual_causation"
+    },
+    {
+      "id": "civic-mvp",
+      "employmentId": "civic",
+      "text": "Built an MVP in three days with an interactive map, voting and feedback; deployed ASP.NET Core, MS SQL and Angular/Ionic, then handed the system to the customer for launch.",
+      "tags": [
+        "fullstack",
+        "gis",
+        "delivery"
+      ]
+    },
+    {
+      "id": "etai-anatomy",
+      "employmentId": "etai",
+      "text": "Built interactive SVG anatomy maps with predefined regions and medical labels, replacing manual drawing and labeling by clinicians.",
+      "tags": [
+        "frontend",
+        "svg",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "etai-scanning",
+      "employmentId": "etai",
+      "text": "Developed a C# scanning service on .NET Framework 4.5: a WebSocket devices command listed scanners, while scan with a device ID returned a base64 image to the browser.",
+      "tags": [
+        "backend",
+        "integration",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "etai-data",
+      "employmentId": "etai",
+      "text": "Developed SQL scripts for updating medication data and ICD-10/ICD-11 classifications.",
+      "tags": [
+        "sql",
+        "data",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "etai-etime",
+      "employmentId": "etai",
+      "text": "Built the eTIME frontend from scratch, including registration, boards, tasks, comments, profiles and workspaces.",
+      "tags": [
+        "frontend",
+        "saas"
+      ]
+    },
+    {
+      "id": "etai-sync",
+      "employmentId": "etai",
+      "text": "Implemented task update synchronization through WebSocket/SignalR and workspace onboarding through email invitations.",
+      "tags": [
+        "realtime",
+        "integration",
+        "saas"
+      ]
+    },
+    {
+      "id": "vs-platform-ownership",
+      "employmentId": "vs",
+      "text": "Acted as the sole technical owner, designing and building the 'Spairtech' B2B platform from the ground up, replacing fragmented legacy systems and manual Excel workflows."
+    },
+    {
+      "id": "vs-crm-catalog",
+      "employmentId": "vs",
+      "text": "Developed a full-stack CRM and public-facing e-commerce catalog using React, Next.js, NestJS, and Elasticsearch, including product search across 550,000 SKUs, customer management, orders, SIP telephony, and marketing campaigns (email and calls)."
+    },
+    {
+      "id": "vs-ai-systems",
+      "employmentId": "vs",
+      "text": "Built three AI systems: a knowledge-base-driven assistant helping managers use and configure the platform, including forms, dashboards, and company settings; AI crawlers combining public web research with internal database data to propose or apply product card updates; and a pilot voice AI operator integrating streaming speech recognition, interruption handling, LLM-driven dialogue, speech synthesis, and CRM reporting."
+    },
+    {
+      "id": "vs-infrastructure-overhaul",
+      "employmentId": "vs",
+      "text": "Overhauled the company's infrastructure: decommissioned a legacy PBX, consolidated servers, and replaced OpenVPN with WireGuard, cutting monthly infrastructure costs by over 50%."
+    },
+    {
+      "id": "big3-leadership-rewrite",
+      "employmentId": "big3",
+      "text": "Promoted to Lead Frontend Engineer, mentoring and managing a team of 5 developers through performance reviews, task allocation, and code quality leadership."
+    },
+    {
+      "id": "big3-performance-quality-rewrite",
+      "employmentId": "big3",
+      "text": "Drastically improved GIS platform performance by re-architecting the map rendering logic, cutting the display time for 100,000+ markers from 3.5 seconds to under 200ms, and cut regression and progression critical bugs by over 55% (from 61 in Q4 2024 to 27 in Q1 2025) in the following six months."
+    },
+    {
+      "id": "big3-cache-cpu-rewrite",
+      "employmentId": "big3",
+      "text": "Developed a client-side cache using Rust/WASM and IndexedDB, which reduced dashboard CPU usage from 120% to 80%."
+    },
+    {
+      "id": "big3-ui-geo-rewrite",
+      "employmentId": "big3",
+      "text": "Architected and built a reusable, component-based UI system and a unified integration layer for geoservice APIs, standardizing development and accelerating feature delivery across teams."
+    },
+    {
+      "id": "big3-forms-rewrite",
+      "employmentId": "big3",
+      "text": "Eliminated a major development bottleneck by replacing hardcoded form configurations with a dynamic admin panel, saving an estimated 2-3 hours of dev and QA time per task."
+    },
+    {
+      "id": "big3-testing-documentation",
+      "employmentId": "big3",
+      "text": "Added E2E testing with Cypress, unit testing with Jest, and JSDoc documentation with coverage percentage checks to prevent regressions.",
+      "tags": [
+        "testing",
+        "documentation",
+        "quality"
+      ]
+    },
+    {
+      "id": "smart-ownership-acquisition",
+      "employmentId": "smartdeal",
+      "text": "As the sole frontend developer, owned the entire user-facing application for a real estate transaction platform, which was later acquired by industry leaders CIAN and PSB."
+    },
+    {
+      "id": "smart-generation-rewrite",
+      "employmentId": "smartdeal",
+      "text": "Built a dynamic document generation system supporting 17+ document types with customizable templates, automating a critical part of the transaction workflow."
+    },
+    {
+      "id": "smart-signing-tracking",
+      "employmentId": "smartdeal",
+      "text": "Implemented SMS-based electronic signing and real-time application status tracking, significantly improving user experience and transaction speed."
+    }
+  ],
+  "x-preferences": {
+    "remoteOnly": true,
+    "openToInternationalRelocation": true,
+    "targetMarket": "US",
+    "contactMethods": [
+      "email"
+    ],
+    "omitEmploymentTypes": true
+  },
+  "x-localizations": {
+    "ru": {
+      "basics": {
+        "name": "Игорь Рыбаков",
+        "label": "Senior Fullstack Engineer / Tech Lead (TypeScript, React, Node.js)",
+        "summary": "Senior Fullstack Engineer и технический лидер с 8+ годами опыта разработки B2B-платформ и руководства командой из 5 разработчиков. Спроектировал и запустил Spairtech полного цикла на TypeScript, React, Next.js, NestJS, PostgreSQL, Elasticsearch, Docker и CI/CD, включая поиск по каталогу из 550 000 товаров. Переработал архитектуру enterprise ГИС-платформы: сократил время отрисовки 100 000+ объектов с 3,5 секунды до 200 мс, а число критических production-ошибок — на 55%.",
+        "location": {
+          "city": "Калининград"
+        }
+      },
+      "work": {
+        "vs": {
+          "name": "VS Industrie GmbH",
+          "position": "Fullstack-разработчик / Technical Owner",
+          "summary": "Самостоятельная разработка и эксплуатация технической платформы Spairtech для дистрибьютора промышленного оборудования. Work type: Freelance",
+          "historyNote": "Сотрудничество началось с вечернего фриланса параллельно основной работе."
+        },
+        "big3": {
+          "name": "Большая Тройка / A.PRO",
+          "position": "Senior → Lead Frontend-разработчик",
+          "summary": "Разработка и развитие enterprise-платформы ГИС для экологии и логистики.",
+          "rolePeriods": [
+            {
+              "position": "Senior Frontend-разработчик"
+            },
+            {
+              "position": "Lead Frontend-разработчик"
+            }
+          ],
+          "employerPeriods": [
+            {
+              "name": "Большая Тройка"
+            },
+            {
+              "name": "A.PRO"
+            }
+          ],
+          "transferNote": "В августе 2025 переведён в A.PRO, дочернюю компанию Большой Тройки и РЭО."
+        },
+        "rosbank": {
+          "name": "Societe Generale",
+          "position": "Senior Frontend-разработчик",
+          "summary": "MVP дашборда мониторинга валют и фондовых индексов.",
+          "startDatePrecision": "Начало на границе июля и августа 2021; месяц нормализован к июлю."
+        },
+        "smartdeal": {
+          "name": "SmartDeal",
+          "position": "Единственный Frontend-разработчик",
+          "summary": "Разработка frontend продукта для автоматизации сделок с недвижимостью."
+        },
+        "civic": {
+          "name": "Фриланс",
+          "position": "Fullstack-разработчик",
+          "summary": "MVP приложения с интерактивной картой для общественной кампании в Республике Коми."
+        },
+        "etai": {
+          "name": "ETAI",
+          "position": "Fullstack-разработчик",
+          "summary": "Развитие медицинской EMR/EHR-платформы и разработка eTIME, системы управления проектами."
+        }
+      },
+      "facts": {
+        "vs-crm": "Спроектировал и разработал CRM с нуля, объединив клиентов, заказы, каталог, коммуникации, телефонию и рассылки; заменил legacy-систему и разрозненный учёт в Excel.",
+        "vs-catalog": "Разработал и запустил B2B-сайт и каталог: frontend, backend, модель данных, поиск, SEO, интеграция с CRM и развёртывание.",
+        "vs-ai-catalog": "Построил агентную AI-систему генерации карточек товаров из технической документации.",
+        "vs-ai-voice": "Разработал пилот голосового AI-оператора с потоковым ASR, VAD/barge-in, LLM, синтезом речи и передачей результатов в CRM.",
+        "vs-telephony": "Интегрировал Asterisk/FreePBX в CRM: автоматическая привязка звонков к клиентам, история взаимодействий, заметки и телефонная книга из базы.",
+        "vs-goip": "Подключил GoIP-шлюзы и SIM-карты разных стран, настроил маршрутизацию с локальными номерами для клиентов в Германии и России.",
+        "vs-email": "Разработал email-кампании с шаблонами и персонализацией по данным CRM для маркетинговых и реактивационных рассылок.",
+        "vs-assistant": "Добавил read-only AI-ассистента для поиска по клиентской базе, анализа истории взаимодействий и подготовки писем.",
+        "vs-infra": "Модернизировал инфраструктуру: вывел из эксплуатации устаревшую АТС и лишний сервер, упростил сеть, заменил OpenVPN на WireGuard. Расходы сократились более чем вдвое.",
+        "vs-operations": "Самостоятельно сопровождал PostgreSQL, Redis, RabbitMQ, Elasticsearch, Docker, Linux, CI/CD, сеть и интеграции.",
+        "big3-lead": "Руководил пятью разработчиками: оценивал и распределял задачи, проводил performance review, занимался менторингом и отвечал за delivery задач команды.",
+        "big3-map": "Ускорил рендеринг карты со 100 000 маркеров с 3,5 с до 200 мс, разделив монолитную логику на самостоятельные слои.",
+        "big3-cache": "Разработал клиентский кэш на Rust/WASM в браузерном worker: IndexedDB, адаптивная пакетная загрузка, дельта-синхронизация и локальная фильтрация.",
+        "big3-cpu": "Снизил среднюю CPU-нагрузку по дашборду при обращениях к БД со 120% до 80% при сопоставимой нагрузке за счёт клиентского кэширования и фильтрации.",
+        "big3-bugs": "После рефакторинга Терминала число зарегистрированных блокирующих и критических багов снизилось с 61 во втором полугодии 2024 до 27 в первом полугодии 2025.",
+        "big3-config": "Перенёс настройку форм Терминала из хардкода в административную панель, сократив цикл соответствующих задач в среднем на 2–3 часа, включая разработку, тестирование, регресс и выкладку.",
+        "big3-response": "Сократил время отклика Терминала с 3 до 0,3 секунды по результатам нагрузочного тестирования.",
+        "big3-signing": "Совместно с коллегой перевёл электронное подписание на модульную архитектуру, выделив NCALayer и CryptoPro в отдельные интеграции.",
+        "big3-geo": "Унифицировал API геосервисов, создав общий слой интеграции для подключения разных провайдеров.",
+        "big3-trackers": "Разработал инструменты мониторинга, добавления и модерации трекеров транспорта с авторизацией, фильтрами и таблицами.",
+        "big3-mobile": "Адаптировал legacy-приложение для мобильных устройств и планшетов.",
+        "big3-documents": "Доработал электронный документооборот: массовое подписание, сверка и массовые переносы маршрутов.",
+        "big3-ui": "Создал переиспользуемую компонентную UI-архитектуру с настройками под разных клиентов.",
+        "big3-analytics": "Разработал функциональность визуального анализа данных на карте и участвовал в backend-доработках на Python/Django: фильтры и исправление ошибок.",
+        "big3-docs": "Внедрил документацию проекта и кода для разработчиков, аналитиков, внедрения и тестирования.",
+        "big3-contract": "Участвовал в проработке технических требований и задач frontend в рамках контракта с Казахстаном.",
+        "big3-qa": "Внедрял подход с приоритетом производительности и помогал определять метрики для QA.",
+        "ros-dashboard": "Разработал и выпустил MVP дашборда мониторинга валют и фондовых индексов, предоставив трейдерам настраиваемые компоновки и рабочие пространства.",
+        "ros-subscriptions": "Разработал гибкий механизм подписок, позволяющий пользователям создавать собственные уведомления на основе задаваемых ими формул и триггеров.",
+        "ros-config": "Разработал основу интерфейса с модульными переиспользуемыми компонентами, заложив фундамент для дальнейшего расширения функциональности.",
+        "smart-ownership": "Отвечал за frontend всего продукта как единственный frontend-разработчик.",
+        "smart-generation": "Разработал генерацию документов для сделок с недвижимостью: 17 типов и настраиваемые шаблоны.",
+        "smart-signing": "Внедрил простую электронную подпись с подтверждением по SMS.",
+        "smart-monitoring": "Реализовал мониторинг заявок и актуализацию данных.",
+        "smart-acquisition": "Работал над продуктом, который впоследствии приобрели ЦИАН и ПСБ.",
+        "civic-mvp": "За три дня разработал MVP с интерактивной картой, голосованием и обратной связью; поднял ASP.NET Core, MS SQL и Angular/Ionic и передал систему заказчику для самостоятельного запуска.",
+        "etai-anatomy": "Разработал интерактивные SVG-карты анатомии с размеченными зонами и медицинскими названиями, заменив ручное рисование и ввод обозначений врачом.",
+        "etai-scanning": "Разработал C#-сервис сканирования на .NET Framework 4.5: WebSocket-команда devices возвращала устройства, scan с ID устройства — изображение в base64 для браузера.",
+        "etai-data": "Разработал SQL-скрипты обновления данных о лекарствах и классификаторов МКБ-10/МКБ-11.",
+        "etai-etime": "Разработал frontend eTIME с нуля: регистрация, доски, задачи, комментарии, профили и рабочие пространства.",
+        "etai-sync": "Реализовал синхронизацию изменений задач через WebSocket/SignalR и подключение пользователей к рабочему пространству по email-приглашению.",
+        "vs-platform-ownership": "Как единственный технический специалист спроектировал и разработал B2B-платформу Spairtech с нуля, заменив разрозненные legacy-системы и ручной учёт в Excel.",
+        "vs-crm-catalog": "Разработал fullstack CRM и публичный e-commerce-каталог на React, Next.js, NestJS и Elasticsearch: поиск по 550 000 товаров, управление клиентами и заказами, SIP-телефония и маркетинговые кампании (email и звонки).",
+        "vs-ai-systems": "Разработал три AI-системы: ассистента на основе базы знаний, помогавшего менеджерам работать с платформой и настраивать формы, дашборды и компании; AI-краулеры, объединявшие исследование открытого интернета с данными внутренней БД для предложения или внесения изменений в карточки товаров; и пилот голосового AI-оператора с потоковым распознаванием речи, обработкой перебиваний, диалогом на основе LLM, синтезом речи и передачей результатов в CRM.",
+        "vs-infrastructure-overhaul": "Модернизировал инфраструктуру компании: вывел из эксплуатации устаревшую АТС, консолидировал серверы и заменил OpenVPN на WireGuard, сократив ежемесячные инфраструктурные расходы более чем на 50%.",
+        "big3-leadership-rewrite": "Повышен до Lead Frontend Engineer; руководил командой из 5 разработчиков, занимался наставничеством, оценкой результатов работы, распределением задач и обеспечением качества кода.",
+        "big3-performance-quality-rewrite": "Существенно повысил производительность ГИС-платформы, переработав архитектуру отрисовки карты: сократил время отображения более 100 000 маркеров с 3,5 секунды до менее 200 мс, а также сократил количество критических ошибок регрессии и нового функционала более чем на 55% (с 61 в IV квартале 2024 года до 27 в I квартале 2025 года) в течение последующих шести месяцев.",
+        "big3-cache-cpu-rewrite": "Разработал клиентский кэш на Rust/WASM и IndexedDB, снизив загрузку CPU дашбордом со 120% до 80%.",
+        "big3-ui-geo-rewrite": "Спроектировал и разработал переиспользуемую компонентную UI-систему и единый слой интеграции API геосервисов, стандартизировав разработку и ускорив выпуск функциональности в командах.",
+        "big3-forms-rewrite": "Устранил существенное узкое место разработки, заменив конфигурации форм в коде динамической административной панелью, что экономило примерно 2–3 часа разработки и QA на задачу.",
+        "big3-testing-documentation": "Добавил E2E-тестирование с Cypress, unit-тестирование с Jest и документацию JSDoc с проверкой процентного покрытия для предотвращения ошибок регресса.",
+        "smart-ownership-acquisition": "Как единственный frontend-разработчик отвечал за всё пользовательское приложение платформы сделок с недвижимостью, которую впоследствии приобрели лидеры отрасли ЦИАН и ПСБ.",
+        "smart-generation-rewrite": "Разработал динамическую систему генерации документов с поддержкой более 17 типов документов и настраиваемыми шаблонами, автоматизировав ключевой этап проведения сделок.",
+        "smart-signing-tracking": "Реализовал электронное подписание через SMS и отслеживание статусов заявок в реальном времени, значительно улучшив пользовательский опыт и ускорив проведение сделок."
+      },
+      "projects": {
+        "active-inference": {
+          "description": "Реализация Active Inference на TypeScript/JavaScript, опубликованная как npm-пакет.",
+          "roles": [
+            "Автор"
+          ]
+        },
+        "typemud": {
+          "description": "Модульная MUD/Roguelike-платформа: клиент Angular/Electron, сервер Deno/WebSocket и API на NestJS.",
+          "roles": [
+            "Автор"
+          ]
+        },
+        "notsg": {
+          "description": "Игра на Rust, доступная в раннем доступе Steam; разработка продолжается.",
+          "roles": [
+            "Автор"
+          ]
+        },
+        "homepage": {
+          "description": "Персональный сайт, созданный с использованием XP.css.",
+          "roles": [
+            "Автор"
+          ]
+        }
+      },
+      "publications": {
+        "gis-performance": {
+          "summary": "Разбор модульной архитектуры карты и клиентского кэширования с Rust/WASM и IndexedDB."
+        }
+      },
+      "skills": {
+        "frontend": {
+          "name": "Frontend"
+        },
+        "backend": {
+          "name": "Backend"
+        },
+        "performance": {
+          "name": "Производительность"
+        },
+        "data-messaging": {
+          "name": "Данные и обмен сообщениями"
+        },
+        "devops": {
+          "name": "DevOps"
+        },
+        "gis": {
+          "name": "ГИС"
+        }
+      },
+      "languages": {
+        "ru": {
+          "language": "Русский",
+          "fluency": "Родной"
+        },
+        "en": {
+          "language": "Английский",
+          "fluency": "Профессиональное рабочее владение (C1)"
+        }
+      },
+      "preferences": {
+        "targetMarket": "RU",
+        "compensation": {
+          "amount": 300000,
+          "currency": "RUB",
+          "net": true
+        }
+      }
+    }
+  }
+}
