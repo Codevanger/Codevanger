@@ -3,9 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=codevanger&label=Profile%20views&color=0e75b6&style=flat" alt="codevanger" /> </p>
 
+- Creator of the game <a href="https://store.steampowered.com/app/4620980/Nights_of_the_Sleeping_God/">Nights of the Sleeping God</a>
+- Check out my <a href="https://www.npmjs.com/package/active-inference">Active Inference implementantion on JavaScript</a>
+- Also you can check my <a href="https://github.com/Codevanger/TypeMUD-Instance">TypeMUD</a> engine - modular MUD server and client on Deno, Nest.JS and Angular
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://discord.gg/Vanger#6903" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Vanger#6903" height="30" width="40" /></a>
+<a href="https://discord.gg/Vanger" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Vanger#6903" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
