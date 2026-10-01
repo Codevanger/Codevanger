@@ -1,0 +1,395 @@
+{
+  "basics": {
+    "name": "Игорь Рыбаков",
+    "label": "Senior Frontend / Fullstack-разработчик",
+    "email": "codevanger@gmail.com",
+    "location": {
+      "city": "Калининград",
+      "countryCode": "RU"
+    },
+    "summary": "Разработчик с опытом enterprise-приложений, ГИС, финансовых и медицинских систем с 2018 года. Специализируюсь на Angular, TypeScript, архитектуре и производительности frontend. Руководил пятью разработчиками; самостоятельно разрабатывал и сопровождал B2B-платформу, включая frontend, backend, инфраструктуру и интеграции."
+  },
+  "work": [
+    {
+      "name": "VS Industrie GmbH",
+      "position": "Fullstack-разработчик, основной технический специалист",
+      "startDate": "2026-02",
+      "summary": "Самостоятельная разработка и эксплуатация технической платформы Spairtech для дистрибьютора промышленного оборудования.",
+      "highlights": [
+        "Спроектировал и разработал CRM с нуля, объединив клиентов, заказы, каталог, коммуникации, телефонию и рассылки; заменил legacy-систему и разрозненный учёт в Excel.",
+        "Разработал и запустил B2B-сайт и каталог: frontend, backend, модель данных, поиск, SEO, интеграция с CRM и развёртывание.",
+        "Построил агентную AI-систему генерации карточек товаров из технической документации.",
+        "Разработал пилот голосового AI-оператора с потоковым ASR, VAD/barge-in, LLM, синтезом речи и передачей результатов в CRM.",
+        "Интегрировал Asterisk/FreePBX в CRM: автоматическая привязка звонков к клиентам, история взаимодействий, заметки и телефонная книга из базы.",
+        "Подключил GoIP-шлюзы и SIM-карты разных стран, настроил маршрутизацию с локальными номерами для клиентов в Германии и России.",
+        "Разработал email-кампании с шаблонами и персонализацией по данным CRM для маркетинговых и реактивационных рассылок.",
+        "Добавил read-only AI-ассистента для поиска по клиентской базе, анализа истории взаимодействий и подготовки писем.",
+        "Модернизировал инфраструктуру: вывел из эксплуатации устаревшую АТС и лишний сервер, упростил сеть, заменил OpenVPN на WireGuard. Расходы сократились более чем вдвое.",
+        "Самостоятельно сопровождал PostgreSQL, Redis, RabbitMQ, Elasticsearch, Docker, Linux, CI/CD, сеть и интеграции."
+      ],
+      "x-factIds": [
+        "vs-crm",
+        "vs-catalog",
+        "vs-ai-catalog",
+        "vs-ai-voice",
+        "vs-telephony",
+        "vs-goip",
+        "vs-email",
+        "vs-assistant",
+        "vs-infra",
+        "vs-operations"
+      ]
+    },
+    {
+      "name": "Большая Тройка / A.PRO",
+      "position": "Senior → Lead Frontend-разработчик",
+      "startDate": "2022-05",
+      "summary": "Разработка и развитие enterprise-платформы ГИС для экологии и логистики.",
+      "highlights": [
+        "Руководил пятью разработчиками: оценивал и распределял задачи, проводил performance review, занимался менторингом и отвечал за delivery задач команды.",
+        "Ускорил рендеринг карты со 100 000 маркеров с 3,5 с до 200 мс, разделив монолитную логику на самостоятельные слои.",
+        "Разработал клиентский кэш на Rust/WASM в браузерном worker: IndexedDB, адаптивная пакетная загрузка, дельта-синхронизация и локальная фильтрация.",
+        "Снизил среднюю CPU-нагрузку по дашборду при обращениях к БД со 120% до 80% при сопоставимой нагрузке за счёт клиентского кэширования и фильтрации.",
+        "После рефакторинга Терминала число зарегистрированных блокирующих и критических багов снизилось с 61 во втором полугодии 2024 до 27 в первом полугодии 2025.",
+        "Перенёс настройку форм Терминала из хардкода в административную панель, сократив цикл соответствующих задач в среднем на 2–3 часа, включая разработку, тестирование, регресс и выкладку.",
+        "Сократил время отклика Терминала с 3 до 0,3 секунды по результатам нагрузочного тестирования.",
+        "Совместно с коллегой перевёл электронное подписание на модульную архитектуру, выделив NCALayer и CryptoPro в отдельные интеграции.",
+        "Унифицировал API геосервисов, создав общий слой интеграции для подключения разных провайдеров.",
+        "Разработал инструменты мониторинга, добавления и модерации трекеров транспорта с авторизацией, фильтрами и таблицами.",
+        "Адаптировал legacy-приложение для мобильных устройств и планшетов.",
+        "Доработал электронный документооборот: массовое подписание, сверка и массовые переносы маршрутов.",
+        "Создал переиспользуемую компонентную UI-архитектуру с настройками под разных клиентов.",
+        "Разработал функциональность визуального анализа данных на карте и участвовал в backend-доработках на Python/Django: фильтры и исправление ошибок.",
+        "Внедрил документацию проекта и кода для разработчиков, аналитиков, внедрения и тестирования.",
+        "Участвовал в проработке технических требований и задач frontend в рамках контракта с Казахстаном.",
+        "Внедрял подход с приоритетом производительности и помогал определять метрики для QA."
+      ],
+      "x-factIds": [
+        "big3-lead",
+        "big3-map",
+        "big3-cache",
+        "big3-cpu",
+        "big3-bugs",
+        "big3-config",
+        "big3-response",
+        "big3-signing",
+        "big3-geo",
+        "big3-trackers",
+        "big3-mobile",
+        "big3-documents",
+        "big3-ui",
+        "big3-analytics",
+        "big3-docs",
+        "big3-contract",
+        "big3-qa"
+      ],
+      "endDate": "2026-07",
+      "x-rolePeriods": [
+        {
+          "startDate": "2022-05",
+          "endDate": "2023-08",
+          "position": "Senior Frontend-разработчик"
+        },
+        {
+          "startDate": "2023-08",
+          "endDate": "2026-07",
+          "position": "Lead Frontend-разработчик"
+        }
+      ],
+      "x-employerPeriods": [
+        {
+          "startDate": "2022-05",
+          "endDate": "2025-08",
+          "name": "Большая Тройка"
+        },
+        {
+          "startDate": "2025-08",
+          "endDate": "2026-07",
+          "name": "A.PRO"
+        }
+      ]
+    },
+    {
+      "name": "Росбанк",
+      "position": "Senior Frontend-разработчик",
+      "startDate": "2021-07",
+      "summary": "MVP дашборда мониторинга валют и фондовых индексов.",
+      "highlights": [
+        "Разработал MVP дашборда мониторинга валют и индексов с настройкой расположения блоков и элементов интерфейса.",
+        "Создал систему подписок с пользовательскими формулами, условиями срабатывания и переиспользуемыми настройками.",
+        "Реализовал настраиваемые окна, меню и рабочие пространства."
+      ],
+      "x-factIds": [
+        "ros-dashboard",
+        "ros-subscriptions",
+        "ros-config"
+      ],
+      "x-skillExposure": [
+        {
+          "skill": "React",
+          "scope": "limited_incidental"
+        }
+      ],
+      "endDate": "2022-05"
+    },
+    {
+      "name": "SmartDeal",
+      "position": "Единственный Frontend-разработчик",
+      "startDate": "2020-11",
+      "summary": "Разработка frontend продукта для автоматизации сделок с недвижимостью.",
+      "highlights": [
+        "Отвечал за frontend всего продукта как единственный frontend-разработчик.",
+        "Разработал генерацию документов для сделок с недвижимостью: 17 типов и настраиваемые шаблоны.",
+        "Внедрил простую электронную подпись с подтверждением по SMS.",
+        "Реализовал мониторинг заявок и актуализацию данных.",
+        "Работал над продуктом, который впоследствии приобрели ЦИАН и ПСБ."
+      ],
+      "x-factIds": [
+        "smart-ownership",
+        "smart-generation",
+        "smart-signing",
+        "smart-monitoring",
+        "smart-acquisition"
+      ],
+      "x-skillExposure": [
+        {
+          "skill": "React",
+          "scope": "limited_incidental"
+        }
+      ],
+      "endDate": "2021-07"
+    },
+    {
+      "name": "ЛАНИТ-ТЕРКОМ",
+      "position": "Frontend-разработчик",
+      "startDate": "2020-02",
+      "summary": "Разработка платформ визуализации данных и ГИС.",
+      "highlights": [
+        "Участвовал в разработке платформы визуализации данных на Angular и NgRx.",
+        "Добавил E2E-тестирование с Cypress.",
+        "Разработал модуль работы с датами для планирования, визуализации и аналитики в ГИС."
+      ],
+      "x-factIds": [
+        "lanit-visualization",
+        "lanit-tests",
+        "lanit-dates"
+      ],
+      "endDate": "2020-11"
+    },
+    {
+      "name": "Фриланс",
+      "position": "Fullstack-разработчик",
+      "startDate": "2020-07",
+      "summary": "MVP приложения с интерактивной картой для общественной кампании в Республике Коми.",
+      "highlights": [
+        "За три дня разработал MVP с интерактивной картой, голосованием и обратной связью; поднял ASP.NET Core, MS SQL и Angular/Ionic и передал систему заказчику для самостоятельного запуска."
+      ],
+      "x-factIds": [
+        "civic-mvp"
+      ],
+      "endDate": "2020-07"
+    },
+    {
+      "name": "ETAI",
+      "position": "Fullstack-разработчик",
+      "startDate": "2018-02",
+      "summary": "Развитие медицинской EMR/EHR-платформы и разработка eTIME, системы управления проектами.",
+      "highlights": [
+        "Разработал интерактивные SVG-карты анатомии с размеченными зонами и медицинскими названиями, заменив ручное рисование и ввод обозначений врачом.",
+        "Разработал C#-сервис сканирования на .NET Framework 4.5: WebSocket-команда devices возвращала устройства, scan с ID устройства — изображение в base64 для браузера.",
+        "Разработал SQL-скрипты обновления данных о лекарствах и классификаторов МКБ-10/МКБ-11.",
+        "Разработал frontend eTIME с нуля: регистрация, доски, задачи, комментарии, профили и рабочие пространства.",
+        "Реализовал синхронизацию изменений задач через WebSocket/SignalR и подключение пользователей к рабочему пространству по email-приглашению."
+      ],
+      "x-factIds": [
+        "etai-anatomy",
+        "etai-scanning",
+        "etai-data",
+        "etai-etime",
+        "etai-sync"
+      ],
+      "endDate": "2020-02"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "RxJS",
+        "NgRx",
+        "React",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Ionic",
+        "Electron",
+        "Tauri",
+        "Leaflet",
+        "AG Grid",
+        "PrimeNG",
+        "Canvas",
+        "Accessibility",
+        "Zustand",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Backend и данные",
+      "keywords": [
+        "Node.js",
+        "NestJS",
+        "Deno",
+        "C#",
+        "ASP.NET",
+        "ASP.NET Core",
+        "Python",
+        "Django",
+        "SQL",
+        "PostgreSQL",
+        "MS SQL",
+        "SQLite",
+        "Redis",
+        "RabbitMQ",
+        "Elasticsearch",
+        "GraphQL",
+        "jQuery",
+        "VBScript",
+        "Xamarin",
+        "WPF",
+        "REST API",
+        "WebSocket",
+        "SignalR",
+        "LINQ"
+      ]
+    },
+    {
+      "name": "Производительность",
+      "keywords": [
+        "Rust",
+        "WebAssembly",
+        "Web Workers",
+        "IndexedDB",
+        "Profiling",
+        "Caching"
+      ]
+    },
+    {
+      "name": "Тестирование и инфраструктура",
+      "keywords": [
+        "Cypress",
+        "Jest",
+        "Unit testing",
+        "Git",
+        "Docker",
+        "Linux",
+        "Nginx",
+        "CI/CD",
+        "Drone",
+        "Webpack",
+        "Vite",
+        "Azure",
+        "Asterisk",
+        "FreePBX",
+        "WireGuard"
+      ]
+    },
+    {
+      "name": "Инженерные практики",
+      "keywords": [
+        "SOLID",
+        "DRY",
+        "KISS",
+        "BEM",
+        "Code review",
+        "Documentation",
+        "Mentoring",
+        "Performance review",
+        "Figma",
+        "Claude Code",
+        "Qwen"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Русский",
+      "fluency": "Родной"
+    },
+    {
+      "language": "Английский",
+      "fluency": "Опыт рабочих созвонов с зарубежным заказчиком"
+    }
+  ],
+  "projects": [
+    {
+      "name": "active-inference",
+      "description": "Реализация Active Inference на TypeScript/JavaScript, опубликованная как npm-пакет.",
+      "url": "https://github.com/Codevanger/active-inference",
+      "keywords": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "roles": [
+        "Автор"
+      ]
+    },
+    {
+      "name": "TypeMUD",
+      "description": "Модульная MUD/Roguelike-платформа: клиент Angular/Electron, сервер Deno/WebSocket и API на NestJS.",
+      "url": "https://github.com/Codevanger/TypeMUD-Instance",
+      "keywords": [
+        "Angular",
+        "Electron",
+        "Deno",
+        "WebSocket",
+        "NestJS"
+      ],
+      "roles": [
+        "Автор"
+      ],
+      "x-status": "development_paused"
+    },
+    {
+      "name": "Nights of the Sleeping God",
+      "description": "Игра на Rust, доступная в раннем доступе Steam; разработка продолжается.",
+      "url": "https://store.steampowered.com/app/4620980/Nights_of_the_Sleeping_God/",
+      "keywords": [
+        "Rust"
+      ],
+      "roles": [
+        "Автор"
+      ],
+      "x-status": "early_access",
+      "x-releaseDate": "2026-05-30"
+    }
+  ],
+  "publications": [
+    {
+      "name": "How to Speed Up a GIS Platform and Keep Your Sanity (Mostly)",
+      "publisher": "LinkedIn",
+      "releaseDate": "2026-02-26",
+      "url": "https://www.linkedin.com/pulse/how-speed-up-gis-platform-keep-your-sanity-mostly-igor-rybakov-welwf/",
+      "summary": "Разбор модульной архитектуры карты и клиентского кэширования с Rust/WASM и IndexedDB."
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-10-01",
+    "locale": "ru"
+  },
+  "x-preferences": {
+    "remoteOnly": true,
+    "openToInternationalRelocation": true,
+    "targetMarket": "RU",
+    "compensation": {
+      "amount": 300000,
+      "currency": "RUB",
+      "net": true
+    }
+  },
+  "x-learning": "Самостоятельное обучение"
+}
