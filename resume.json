@@ -1,0 +1,390 @@
+{
+  "basics": {
+    "name": "Igor Rybakov",
+    "label": "Senior Frontend / Fullstack Engineer",
+    "email": "codevanger@gmail.com",
+    "location": {
+      "city": "Kaliningrad",
+      "countryCode": "RU"
+    },
+    "summary": "Software engineer working on enterprise applications, GIS, financial and healthcare systems since 2018. Focused on Angular, TypeScript, frontend architecture and performance. Led five developers and independently developed and operated a B2B platform spanning frontend, backend, infrastructure and integrations."
+  },
+  "work": [
+    {
+      "name": "VS Industrie GmbH",
+      "position": "Fullstack Engineer, Sole Technical Specialist",
+      "startDate": "2026-02",
+      "summary": "Sole responsibility for development and operation of Spairtech, a technical platform for an industrial equipment distributor.",
+      "highlights": [
+        "Designed and built a CRM from scratch, unifying customers, orders, catalog, communications, telephony and email campaigns; replaced legacy software and fragmented Excel workflows.",
+        "Built and launched a B2B website and catalog, covering frontend, backend, data modeling, search, SEO, CRM integration and deployment.",
+        "Built an agentic AI pipeline to generate product pages from technical documentation.",
+        "Developed a pilot AI voice operator using streaming ASR, VAD/barge-in, an LLM, text-to-speech and CRM reporting.",
+        "Integrated Asterisk/FreePBX into the CRM, linking calls to customers and providing interaction history, notes and a database-generated phone book.",
+        "Connected GoIP gateways and SIM cards from different countries and configured routing with local numbers for customers in Germany and Russia.",
+        "Built templated email campaigns personalized with CRM data for marketing and reactivation.",
+        "Added a read-only AI assistant for customer search, interaction history analysis and email drafting.",
+        "Modernized infrastructure by retiring an obsolete PBX and redundant server, simplifying the network and replacing OpenVPN with WireGuard. More than halved infrastructure costs.",
+        "Independently operated PostgreSQL, Redis, RabbitMQ, Elasticsearch, Docker, Linux, CI/CD, networking and integrations."
+      ],
+      "x-factIds": [
+        "vs-crm",
+        "vs-catalog",
+        "vs-ai-catalog",
+        "vs-ai-voice",
+        "vs-telephony",
+        "vs-goip",
+        "vs-email",
+        "vs-assistant",
+        "vs-infra",
+        "vs-operations"
+      ]
+    },
+    {
+      "name": "Big3 / A.PRO",
+      "position": "Senior → Lead Frontend Engineer",
+      "startDate": "2022-05",
+      "summary": "Development of an enterprise GIS platform for environmental operations and logistics.",
+      "highlights": [
+        "Led five developers, covering task estimation and allocation, performance reviews, mentoring and delivery of team tasks.",
+        "Reduced rendering time for a map with 100,000 markers from 3.5 seconds to 200 ms by separating monolithic logic into independent layers.",
+        "Developed a Rust/WASM client-side cache in a browser worker with IndexedDB, adaptive batching, delta synchronization and local filtering.",
+        "Reduced average dashboard CPU utilization during database access from 120% to 80% under comparable workload through client-side caching and filtering.",
+        "Following the Terminal refactor, reported blocker and critical bugs decreased from 61 in H2 2024 to 27 in H1 2025.",
+        "Moved Terminal form configuration from hardcoded templates to an admin panel, saving an average of 2–3 hours per relevant task across development, testing, regression checks and deployment.",
+        "Reduced Terminal response time from 3 seconds to 0.3 seconds in load testing.",
+        "Worked with a colleague to modularize electronic signing, separating NCALayer and CryptoPro into provider integrations.",
+        "Unified geoservice APIs through a common integration layer supporting multiple providers.",
+        "Built tools for monitoring, adding and moderating vehicle trackers, with authorization, filters and tables.",
+        "Adapted a legacy application for mobile devices and tablets.",
+        "Extended document workflows with batch signing, reconciliation and bulk route transfers.",
+        "Created a reusable component-based UI architecture configurable for different customers.",
+        "Developed map-based visual analytics and contributed to Python/Django backend filtering and bug fixes.",
+        "Introduced project and code documentation for developers, analysts, implementation and QA teams.",
+        "Contributed to frontend technical requirements and task planning for a contract in Kazakhstan.",
+        "Promoted performance-focused development and helped define QA metrics."
+      ],
+      "x-factIds": [
+        "big3-lead",
+        "big3-map",
+        "big3-cache",
+        "big3-cpu",
+        "big3-bugs",
+        "big3-config",
+        "big3-response",
+        "big3-signing",
+        "big3-geo",
+        "big3-trackers",
+        "big3-mobile",
+        "big3-documents",
+        "big3-ui",
+        "big3-analytics",
+        "big3-docs",
+        "big3-contract",
+        "big3-qa"
+      ],
+      "endDate": "2026-07",
+      "x-rolePeriods": [
+        {
+          "startDate": "2022-05",
+          "endDate": "2023-08",
+          "position": "Senior Frontend Engineer"
+        },
+        {
+          "startDate": "2023-08",
+          "endDate": "2026-07",
+          "position": "Lead Frontend Engineer"
+        }
+      ],
+      "x-employerPeriods": [
+        {
+          "startDate": "2022-05",
+          "endDate": "2025-08",
+          "name": "Big3"
+        },
+        {
+          "startDate": "2025-08",
+          "endDate": "2026-07",
+          "name": "A.PRO"
+        }
+      ]
+    },
+    {
+      "name": "Rosbank",
+      "position": "Senior Frontend Engineer",
+      "startDate": "2021-07",
+      "summary": "MVP dashboard for monitoring currencies and stock market indices.",
+      "highlights": [
+        "Developed an MVP currency and index monitoring dashboard with configurable block layouts and interface elements.",
+        "Built a subscription system with user-defined formulas, triggers and reusable settings.",
+        "Implemented configurable windows, menus and workspaces."
+      ],
+      "x-factIds": [
+        "ros-dashboard",
+        "ros-subscriptions",
+        "ros-config"
+      ],
+      "x-skillExposure": [
+        {
+          "skill": "React",
+          "scope": "limited_incidental"
+        }
+      ],
+      "endDate": "2022-05"
+    },
+    {
+      "name": "SmartDeal",
+      "position": "Sole Frontend Engineer",
+      "startDate": "2020-11",
+      "summary": "Frontend development for a real estate transaction automation product.",
+      "highlights": [
+        "Owned the frontend of the entire product as its sole frontend developer.",
+        "Built document generation for real estate transactions with 17 document types and customizable templates.",
+        "Implemented SMS-based electronic signing.",
+        "Implemented application status monitoring and data updates.",
+        "Worked on a product subsequently acquired by CIAN and PSB."
+      ],
+      "x-factIds": [
+        "smart-ownership",
+        "smart-generation",
+        "smart-signing",
+        "smart-monitoring",
+        "smart-acquisition"
+      ],
+      "x-skillExposure": [
+        {
+          "skill": "React",
+          "scope": "limited_incidental"
+        }
+      ],
+      "endDate": "2021-07"
+    },
+    {
+      "name": "LANIT-TERCOM",
+      "position": "Frontend Engineer",
+      "startDate": "2020-02",
+      "summary": "Development of data visualization and GIS platforms.",
+      "highlights": [
+        "Contributed to a data visualization platform using Angular and NgRx.",
+        "Added end-to-end testing with Cypress.",
+        "Developed a GIS date-handling module for planning, visualization and analytics."
+      ],
+      "x-factIds": [
+        "lanit-visualization",
+        "lanit-tests",
+        "lanit-dates"
+      ],
+      "endDate": "2020-11"
+    },
+    {
+      "name": "Freelance",
+      "position": "Fullstack Engineer",
+      "startDate": "2020-07",
+      "summary": "MVP application with an interactive map for a civic campaign in the Komi Republic.",
+      "highlights": [
+        "Built an MVP in three days with an interactive map, voting and feedback; deployed ASP.NET Core, MS SQL and Angular/Ionic, then handed the system to the customer for launch."
+      ],
+      "x-factIds": [
+        "civic-mvp"
+      ],
+      "endDate": "2020-07"
+    },
+    {
+      "name": "ETAI",
+      "position": "Fullstack Engineer",
+      "startDate": "2018-02",
+      "summary": "Development of an EMR/EHR platform and eTIME, a project management application.",
+      "highlights": [
+        "Built interactive SVG anatomy maps with predefined regions and medical labels, replacing manual drawing and labeling by clinicians.",
+        "Developed a C# scanning service on .NET Framework 4.5: a WebSocket devices command listed scanners, while scan with a device ID returned a base64 image to the browser.",
+        "Developed SQL scripts for updating medication data and ICD-10/ICD-11 classifications.",
+        "Built the eTIME frontend from scratch, including registration, boards, tasks, comments, profiles and workspaces.",
+        "Implemented task update synchronization through WebSocket/SignalR and workspace onboarding through email invitations."
+      ],
+      "x-factIds": [
+        "etai-anatomy",
+        "etai-scanning",
+        "etai-data",
+        "etai-etime",
+        "etai-sync"
+      ],
+      "endDate": "2020-02"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "RxJS",
+        "NgRx",
+        "React",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Ionic",
+        "Electron",
+        "Tauri",
+        "Leaflet",
+        "AG Grid",
+        "PrimeNG",
+        "Canvas",
+        "Accessibility",
+        "Zustand",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Backend and data",
+      "keywords": [
+        "Node.js",
+        "NestJS",
+        "Deno",
+        "C#",
+        "ASP.NET",
+        "ASP.NET Core",
+        "Python",
+        "Django",
+        "SQL",
+        "PostgreSQL",
+        "MS SQL",
+        "SQLite",
+        "Redis",
+        "RabbitMQ",
+        "Elasticsearch",
+        "GraphQL",
+        "jQuery",
+        "VBScript",
+        "Xamarin",
+        "WPF",
+        "REST API",
+        "WebSocket",
+        "SignalR",
+        "LINQ"
+      ]
+    },
+    {
+      "name": "Performance",
+      "keywords": [
+        "Rust",
+        "WebAssembly",
+        "Web Workers",
+        "IndexedDB",
+        "Profiling",
+        "Caching"
+      ]
+    },
+    {
+      "name": "Testing and infrastructure",
+      "keywords": [
+        "Cypress",
+        "Jest",
+        "Unit testing",
+        "Git",
+        "Docker",
+        "Linux",
+        "Nginx",
+        "CI/CD",
+        "Drone",
+        "Webpack",
+        "Vite",
+        "Azure",
+        "Asterisk",
+        "FreePBX",
+        "WireGuard"
+      ]
+    },
+    {
+      "name": "Engineering practices",
+      "keywords": [
+        "SOLID",
+        "DRY",
+        "KISS",
+        "BEM",
+        "Code review",
+        "Documentation",
+        "Mentoring",
+        "Performance review",
+        "Figma",
+        "Claude Code",
+        "Qwen"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Experience participating in work calls with an international client"
+    }
+  ],
+  "projects": [
+    {
+      "name": "active-inference",
+      "description": "An Active Inference implementation in TypeScript/JavaScript published as an npm package.",
+      "url": "https://github.com/Codevanger/active-inference",
+      "keywords": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "roles": [
+        "Creator"
+      ]
+    },
+    {
+      "name": "TypeMUD",
+      "description": "A modular MUD/roguelike platform with an Angular/Electron client, Deno/WebSocket server and NestJS API.",
+      "url": "https://github.com/Codevanger/TypeMUD-Instance",
+      "keywords": [
+        "Angular",
+        "Electron",
+        "Deno",
+        "WebSocket",
+        "NestJS"
+      ],
+      "roles": [
+        "Creator"
+      ],
+      "x-status": "development_paused"
+    },
+    {
+      "name": "Nights of the Sleeping God",
+      "description": "A Rust game available in Steam Early Access; development continues.",
+      "url": "https://store.steampowered.com/app/4620980/Nights_of_the_Sleeping_God/",
+      "keywords": [
+        "Rust"
+      ],
+      "roles": [
+        "Creator"
+      ],
+      "x-status": "early_access",
+      "x-releaseDate": "2026-05-30"
+    }
+  ],
+  "publications": [
+    {
+      "name": "How to Speed Up a GIS Platform and Keep Your Sanity (Mostly)",
+      "publisher": "LinkedIn",
+      "releaseDate": "2026-02-26",
+      "url": "https://www.linkedin.com/pulse/how-speed-up-gis-platform-keep-your-sanity-mostly-igor-rybakov-welwf/",
+      "summary": "A discussion of modular map architecture and client-side caching with Rust/WASM and IndexedDB."
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastModified": "2026-10-01",
+    "locale": "en"
+  },
+  "x-preferences": {
+    "remoteOnly": true,
+    "openToInternationalRelocation": true,
+    "targetMarket": "US"
+  },
+  "x-learning": "Self-taught"
+}
