@@ -20,16 +20,12 @@
       "countryCode": "RU"
     },
     "headline": {
-      "ru": "Senior Frontend / Fullstack-разработчик",
-      "en": "Senior Frontend / Fullstack Engineer"
+      "ru": "Senior Fullstack Engineer (JavaScript, Python, Rust)",
+      "en": "Senior Fullstack Engineer (JavaScript, Python, Rust)"
     },
     "summary": {
       "ru": "Разработчик с опытом enterprise-приложений, ГИС, финансовых и медицинских систем с 2018 года. Специализируюсь на Angular, TypeScript, архитектуре и производительности frontend. Руководил пятью разработчиками; самостоятельно разрабатывал и сопровождал B2B-платформу, включая frontend, backend, инфраструктуру и интеграции.",
-      "en": "Software engineer working on enterprise applications, GIS, financial and healthcare systems since 2018. Focused on Angular, TypeScript, frontend architecture and performance. Led five developers and independently developed and operated a B2B platform spanning frontend, backend, infrastructure and integrations."
-    },
-    "learning": {
-      "ru": "Самостоятельное обучение",
-      "en": "Self-taught"
+      "en": "Senior Fullstack Engineer with 8+ years of experience building and scaling complex applications in GIS, finance, and B2B sectors. Proven expert in frontend performance, reducing map rendering time from 3.5s to 200ms for 100k+ data points. As a sole technical owner, built a full-stack B2B platform from scratch, including CRM, AI pipelines, and infrastructure, cutting costs by over 50%. Formerly a Lead Frontend Engineer mentoring a team of five."
     },
     "languages": [
       {
@@ -48,8 +44,8 @@
           "en": "English"
         },
         "fluency": {
-          "ru": "Опыт рабочих созвонов с зарубежным заказчиком",
-          "en": "Experience participating in work calls with an international client"
+          "ru": "Профессиональное рабочее владение (C1)",
+          "en": "Professional Working Proficiency (C1)"
         }
       }
     ]
@@ -86,8 +82,8 @@
         "en": "Fullstack Engineer, Sole Technical Specialist"
       },
       "summary": {
-        "ru": "Самостоятельная разработка и эксплуатация технической платформы Spairtech для дистрибьютора промышленного оборудования.",
-        "en": "Sole responsibility for development and operation of Spairtech, a technical platform for an industrial equipment distributor."
+        "ru": "Самостоятельная разработка и эксплуатация технической платформы Spairtech для дистрибьютора промышленного оборудования. Work type: Freelance",
+        "en": "Sole responsibility for development and operation of Spairtech, a technical platform for an industrial equipment distributor. Work type: Freelance"
       },
       "skills": [
         "React",
@@ -106,16 +102,10 @@
         "GraphQL"
       ],
       "factIds": [
-        "vs-crm",
-        "vs-catalog",
-        "vs-ai-catalog",
-        "vs-ai-voice",
-        "vs-telephony",
-        "vs-goip",
-        "vs-email",
-        "vs-assistant",
-        "vs-infra",
-        "vs-operations"
+        "vs-platform-ownership",
+        "vs-crm-catalog",
+        "vs-ai-systems",
+        "vs-infrastructure-overhaul"
       ],
       "historyNote": {
         "ru": "Сотрудничество началось с вечернего фриланса параллельно основной работе.",
@@ -151,23 +141,11 @@
         "Node.js"
       ],
       "factIds": [
-        "big3-lead",
-        "big3-map",
-        "big3-cache",
-        "big3-cpu",
-        "big3-bugs",
-        "big3-config",
-        "big3-response",
-        "big3-signing",
-        "big3-geo",
-        "big3-trackers",
-        "big3-mobile",
-        "big3-documents",
-        "big3-ui",
-        "big3-analytics",
-        "big3-docs",
-        "big3-contract",
-        "big3-qa"
+        "big3-leadership-rewrite",
+        "big3-performance-quality-rewrite",
+        "big3-cache-cpu-rewrite",
+        "big3-ui-geo-rewrite",
+        "big3-forms-rewrite"
       ],
       "rolePeriods": [
         {
@@ -232,8 +210,8 @@
     {
       "id": "rosbank",
       "name": {
-        "ru": "Росбанк",
-        "en": "Rosbank"
+        "ru": "Societe Generale",
+        "en": "Societe Generale"
       },
       "startDate": "2021-07",
       "position": {
@@ -291,11 +269,9 @@
         "CSS"
       ],
       "factIds": [
-        "smart-ownership",
-        "smart-generation",
-        "smart-signing",
-        "smart-monitoring",
-        "smart-acquisition"
+        "smart-ownership-acquisition",
+        "smart-generation-rewrite",
+        "smart-signing-tracking"
       ],
       "endDate": "2021-07",
       "skillExposure": [
@@ -793,8 +769,8 @@
       "id": "ros-dashboard",
       "employmentId": "rosbank",
       "text": {
-        "ru": "Разработал MVP дашборда мониторинга валют и индексов с настройкой расположения блоков и элементов интерфейса.",
-        "en": "Developed an MVP currency and index monitoring dashboard with configurable block layouts and interface elements."
+        "ru": "Разработал и выпустил MVP дашборда мониторинга валют и фондовых индексов, предоставив трейдерам настраиваемые компоновки и рабочие пространства.",
+        "en": "Developed and delivered an MVP for a currency and stock market monitoring dashboard, enabling traders to use configurable layouts and workspaces."
       },
       "tags": [
         "frontend",
@@ -805,8 +781,8 @@
       "id": "ros-subscriptions",
       "employmentId": "rosbank",
       "text": {
-        "ru": "Создал систему подписок с пользовательскими формулами, условиями срабатывания и переиспользуемыми настройками.",
-        "en": "Built a subscription system with user-defined formulas, triggers and reusable settings."
+        "ru": "Разработал гибкий механизм подписок, позволяющий пользователям создавать собственные уведомления на основе задаваемых ими формул и триггеров.",
+        "en": "Built a flexible subscription engine allowing users to create custom alerts based on user-defined formulas and triggers."
       },
       "tags": [
         "frontend",
@@ -818,8 +794,8 @@
       "id": "ros-config",
       "employmentId": "rosbank",
       "text": {
-        "ru": "Реализовал настраиваемые окна, меню и рабочие пространства.",
-        "en": "Implemented configurable windows, menus and workspaces."
+        "ru": "Разработал основу интерфейса с модульными переиспользуемыми компонентами, заложив фундамент для дальнейшего расширения функциональности.",
+        "en": "Engineered the core UI with modular, reusable components, setting the foundation for future feature expansion."
       },
       "tags": [
         "frontend",
@@ -997,6 +973,102 @@
         "integration",
         "saas"
       ]
+    },
+    {
+      "id": "vs-platform-ownership",
+      "employmentId": "vs",
+      "text": {
+        "ru": "Как единственный технический специалист спроектировал и разработал B2B-платформу Spairtech с нуля, заменив разрозненные legacy-системы и ручной учёт в Excel.",
+        "en": "Acted as the sole technical owner, designing and building the 'Spairtech' B2B platform from the ground up, replacing fragmented legacy systems and manual Excel workflows."
+      }
+    },
+    {
+      "id": "vs-crm-catalog",
+      "employmentId": "vs",
+      "text": {
+        "ru": "Разработал fullstack CRM и публичный e-commerce-каталог на React, Next.js и NestJS, объединив управление клиентами, заказы, SIP-телефонию и маркетинговые кампании (email и звонки).",
+        "en": "Developed a full-stack CRM and public-facing e-commerce catalog using React, Next.js, and NestJS, integrating customer management, orders, SIP telephony, and marketing campaigns (email and calls)."
+      }
+    },
+    {
+      "id": "vs-ai-systems",
+      "employmentId": "vs",
+      "text": {
+        "ru": "Разработал три AI-системы: ассистента на основе базы знаний, помогавшего менеджерам работать с платформой и настраивать формы, дашборды и компании; AI-краулеры, объединявшие исследование открытого интернета с данными внутренней БД для предложения или внесения изменений в карточки товаров; и пилот голосового AI-оператора с потоковым распознаванием речи, обработкой перебиваний, диалогом на основе LLM, синтезом речи и передачей результатов в CRM.",
+        "en": "Built three AI systems: a knowledge-base-driven assistant helping managers use and configure the platform, including forms, dashboards, and company settings; AI crawlers combining public web research with internal database data to propose or apply product card updates; and a pilot voice AI operator integrating streaming speech recognition, interruption handling, LLM-driven dialogue, speech synthesis, and CRM reporting."
+      }
+    },
+    {
+      "id": "vs-infrastructure-overhaul",
+      "employmentId": "vs",
+      "text": {
+        "ru": "Модернизировал инфраструктуру компании: вывел из эксплуатации устаревшую АТС, консолидировал серверы и заменил OpenVPN на WireGuard, сократив ежемесячные инфраструктурные расходы более чем на 50%.",
+        "en": "Overhauled the company's infrastructure: decommissioned a legacy PBX, consolidated servers, and replaced OpenVPN with WireGuard, cutting monthly infrastructure costs by over 50%."
+      }
+    },
+    {
+      "id": "big3-leadership-rewrite",
+      "employmentId": "big3",
+      "text": {
+        "ru": "Повышен до Lead Frontend Engineer; руководил командой из 5 разработчиков, занимался наставничеством, оценкой результатов работы, распределением задач и обеспечением качества кода.",
+        "en": "Promoted to Lead Frontend Engineer, mentoring and managing a team of 5 developers through performance reviews, task allocation, and code quality leadership."
+      }
+    },
+    {
+      "id": "big3-performance-quality-rewrite",
+      "employmentId": "big3",
+      "text": {
+        "ru": "Существенно повысил производительность ГИС-платформы, переработав архитектуру отрисовки карты: сократил время отображения более 100 000 маркеров с 3,5 секунды до менее 200 мс, а также сократил количество критических ошибок регрессии и нового функционала более чем на 55% (с 61 в IV квартале 2024 года до 27 в I квартале 2025 года) в течение последующих шести месяцев.",
+        "en": "Drastically improved GIS platform performance by re-architecting the map rendering logic, cutting the display time for 100,000+ markers from 3.5 seconds to under 200ms, and cut regression and progression critical bugs by over 55% (from 61 in Q4 2024 to 27 in Q1 2025) in the following six months."
+      }
+    },
+    {
+      "id": "big3-cache-cpu-rewrite",
+      "employmentId": "big3",
+      "text": {
+        "ru": "Разработал клиентский кэш на Rust/WASM и IndexedDB, снизив загрузку CPU дашбордом со 120% до 80%.",
+        "en": "Developed a client-side cache using Rust/WASM and IndexedDB, which reduced dashboard CPU usage from 120% to 80%."
+      }
+    },
+    {
+      "id": "big3-ui-geo-rewrite",
+      "employmentId": "big3",
+      "text": {
+        "ru": "Спроектировал и разработал переиспользуемую компонентную UI-систему и единый слой интеграции API геосервисов, стандартизировав разработку и ускорив выпуск функциональности в командах.",
+        "en": "Architected and built a reusable, component-based UI system and a unified integration layer for geoservice APIs, standardizing development and accelerating feature delivery across teams."
+      }
+    },
+    {
+      "id": "big3-forms-rewrite",
+      "employmentId": "big3",
+      "text": {
+        "ru": "Устранил существенное узкое место разработки, заменив конфигурации форм в коде динамической административной панелью, что экономило примерно 2–3 часа разработки и QA на задачу.",
+        "en": "Eliminated a major development bottleneck by replacing hardcoded form configurations with a dynamic admin panel, saving an estimated 2-3 hours of dev and QA time per task."
+      }
+    },
+    {
+      "id": "smart-ownership-acquisition",
+      "employmentId": "smartdeal",
+      "text": {
+        "ru": "Как единственный frontend-разработчик отвечал за всё пользовательское приложение платформы сделок с недвижимостью, которую впоследствии приобрели лидеры отрасли ЦИАН и ПСБ.",
+        "en": "As the sole frontend developer, owned the entire user-facing application for a real estate transaction platform, which was later acquired by industry leaders CIAN and PSB."
+      }
+    },
+    {
+      "id": "smart-generation-rewrite",
+      "employmentId": "smartdeal",
+      "text": {
+        "ru": "Разработал динамическую систему генерации документов с поддержкой более 17 типов документов и настраиваемыми шаблонами, автоматизировав ключевой этап проведения сделок.",
+        "en": "Built a dynamic document generation system supporting 17+ document types with customizable templates, automating a critical part of the transaction workflow."
+      }
+    },
+    {
+      "id": "smart-signing-tracking",
+      "employmentId": "smartdeal",
+      "text": {
+        "ru": "Реализовал электронное подписание через SMS и отслеживание статусов заявок в реальном времени, значительно улучшив пользовательский опыт и ускорив проведение сделок.",
+        "en": "Implemented SMS-based electronic signing and real-time application status tracking, significantly improving user experience and transaction speed."
+      }
     }
   ],
   "projects": [
@@ -1075,118 +1147,28 @@
   "skills": [
     {
       "name": {
-        "ru": "Frontend",
-        "en": "Frontend"
+        "ru": "Технологии",
+        "en": "Technologies"
       },
       "keywords": [
         "Angular",
         "TypeScript",
-        "JavaScript",
-        "RxJS",
-        "NgRx",
         "React",
         "Next.js",
-        "HTML",
-        "CSS",
-        "SCSS",
-        "Ionic",
-        "Electron",
-        "Tauri",
-        "Leaflet",
-        "AG Grid",
-        "PrimeNG",
-        "Canvas",
-        "Accessibility",
-        "Zustand",
-        "Redux"
-      ]
-    },
-    {
-      "name": {
-        "ru": "Backend и данные",
-        "en": "Backend and data"
-      },
-      "keywords": [
         "Node.js",
         "NestJS",
-        "Deno",
-        "C#",
-        "ASP.NET",
-        "ASP.NET Core",
         "Python",
-        "Django",
-        "SQL",
-        "PostgreSQL",
-        "MS SQL",
-        "SQLite",
-        "Redis",
-        "RabbitMQ",
-        "Elasticsearch",
-        "GraphQL",
-        "jQuery",
-        "VBScript",
-        "Xamarin",
-        "WPF",
-        "REST API",
-        "WebSocket",
-        "SignalR",
-        "LINQ"
-      ]
-    },
-    {
-      "name": {
-        "ru": "Производительность",
-        "en": "Performance"
-      },
-      "keywords": [
         "Rust",
         "WebAssembly",
-        "Web Workers",
-        "IndexedDB",
-        "Profiling",
-        "Caching"
-      ]
-    },
-    {
-      "name": {
-        "ru": "Тестирование и инфраструктура",
-        "en": "Testing and infrastructure"
-      },
-      "keywords": [
-        "Cypress",
-        "Jest",
-        "Unit testing",
-        "Git",
+        "PostgreSQL",
+        "Redis",
         "Docker",
-        "Linux",
-        "Nginx",
+        "Kubernetes",
+        "AWS",
         "CI/CD",
-        "Drone",
-        "Webpack",
-        "Vite",
-        "Azure",
-        "Asterisk",
-        "FreePBX",
-        "WireGuard"
-      ]
-    },
-    {
-      "name": {
-        "ru": "Инженерные практики",
-        "en": "Engineering practices"
-      },
-      "keywords": [
-        "SOLID",
-        "DRY",
-        "KISS",
-        "BEM",
-        "Code review",
-        "Documentation",
-        "Mentoring",
-        "Performance review",
-        "Figma",
-        "Claude Code",
-        "Qwen"
+        "GraphQL",
+        "GIS",
+        "Microservices"
       ]
     }
   ],

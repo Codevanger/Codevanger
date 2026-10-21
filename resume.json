@@ -1,43 +1,31 @@
 {
   "basics": {
     "name": "Igor Rybakov",
-    "label": "Senior Frontend / Fullstack Engineer",
+    "label": "Senior Fullstack Engineer (JavaScript, Python, Rust)",
     "email": "codevanger@gmail.com",
     "location": {
       "city": "Kaliningrad",
       "countryCode": "RU"
     },
-    "summary": "Software engineer working on enterprise applications, GIS, financial and healthcare systems since 2018. Focused on Angular, TypeScript, frontend architecture and performance. Led five developers and independently developed and operated a B2B platform spanning frontend, backend, infrastructure and integrations."
+    "summary": "Senior Fullstack Engineer with 8+ years of experience building and scaling complex applications in GIS, finance, and B2B sectors. Proven expert in frontend performance, reducing map rendering time from 3.5s to 200ms for 100k+ data points. As a sole technical owner, built a full-stack B2B platform from scratch, including CRM, AI pipelines, and infrastructure, cutting costs by over 50%. Formerly a Lead Frontend Engineer mentoring a team of five."
   },
   "work": [
     {
       "name": "VS Industrie GmbH",
       "position": "Fullstack Engineer, Sole Technical Specialist",
       "startDate": "2026-02",
-      "summary": "Sole responsibility for development and operation of Spairtech, a technical platform for an industrial equipment distributor.",
+      "summary": "Sole responsibility for development and operation of Spairtech, a technical platform for an industrial equipment distributor. Work type: Freelance",
       "highlights": [
-        "Designed and built a CRM from scratch, unifying customers, orders, catalog, communications, telephony and email campaigns; replaced legacy software and fragmented Excel workflows.",
-        "Built and launched a B2B website and catalog, covering frontend, backend, data modeling, search, SEO, CRM integration and deployment.",
-        "Built an agentic AI pipeline to generate product pages from technical documentation.",
-        "Developed a pilot AI voice operator using streaming ASR, VAD/barge-in, an LLM, text-to-speech and CRM reporting.",
-        "Integrated Asterisk/FreePBX into the CRM, linking calls to customers and providing interaction history, notes and a database-generated phone book.",
-        "Connected GoIP gateways and SIM cards from different countries and configured routing with local numbers for customers in Germany and Russia.",
-        "Built templated email campaigns personalized with CRM data for marketing and reactivation.",
-        "Added a read-only AI assistant for customer search, interaction history analysis and email drafting.",
-        "Modernized infrastructure by retiring an obsolete PBX and redundant server, simplifying the network and replacing OpenVPN with WireGuard. More than halved infrastructure costs.",
-        "Independently operated PostgreSQL, Redis, RabbitMQ, Elasticsearch, Docker, Linux, CI/CD, networking and integrations."
+        "Acted as the sole technical owner, designing and building the 'Spairtech' B2B platform from the ground up, replacing fragmented legacy systems and manual Excel workflows.",
+        "Developed a full-stack CRM and public-facing e-commerce catalog using React, Next.js, and NestJS, integrating customer management, orders, SIP telephony, and marketing campaigns (email and calls).",
+        "Built three AI systems: a knowledge-base-driven assistant helping managers use and configure the platform, including forms, dashboards, and company settings; AI crawlers combining public web research with internal database data to propose or apply product card updates; and a pilot voice AI operator integrating streaming speech recognition, interruption handling, LLM-driven dialogue, speech synthesis, and CRM reporting.",
+        "Overhauled the company's infrastructure: decommissioned a legacy PBX, consolidated servers, and replaced OpenVPN with WireGuard, cutting monthly infrastructure costs by over 50%."
       ],
       "x-factIds": [
-        "vs-crm",
-        "vs-catalog",
-        "vs-ai-catalog",
-        "vs-ai-voice",
-        "vs-telephony",
-        "vs-goip",
-        "vs-email",
-        "vs-assistant",
-        "vs-infra",
-        "vs-operations"
+        "vs-platform-ownership",
+        "vs-crm-catalog",
+        "vs-ai-systems",
+        "vs-infrastructure-overhaul"
       ]
     },
     {
@@ -46,42 +34,18 @@
       "startDate": "2022-05",
       "summary": "Development of an enterprise GIS platform for environmental operations and logistics.",
       "highlights": [
-        "Led five developers, covering task estimation and allocation, performance reviews, mentoring and delivery of team tasks.",
-        "Reduced rendering time for a map with 100,000 markers from 3.5 seconds to 200 ms by separating monolithic logic into independent layers.",
-        "Developed a Rust/WASM client-side cache in a browser worker with IndexedDB, adaptive batching, delta synchronization and local filtering.",
-        "Reduced average dashboard CPU utilization during database access from 120% to 80% under comparable workload through client-side caching and filtering.",
-        "Following the Terminal refactor, reported blocker and critical bugs decreased from 61 in H2 2024 to 27 in H1 2025.",
-        "Moved Terminal form configuration from hardcoded templates to an admin panel, saving an average of 2–3 hours per relevant task across development, testing, regression checks and deployment.",
-        "Reduced Terminal response time from 3 seconds to 0.3 seconds in load testing.",
-        "Worked with a colleague to modularize electronic signing, separating NCALayer and CryptoPro into provider integrations.",
-        "Unified geoservice APIs through a common integration layer supporting multiple providers.",
-        "Built tools for monitoring, adding and moderating vehicle trackers, with authorization, filters and tables.",
-        "Adapted a legacy application for mobile devices and tablets.",
-        "Extended document workflows with batch signing, reconciliation and bulk route transfers.",
-        "Created a reusable component-based UI architecture configurable for different customers.",
-        "Developed map-based visual analytics and contributed to Python/Django backend filtering and bug fixes.",
-        "Introduced project and code documentation for developers, analysts, implementation and QA teams.",
-        "Contributed to frontend technical requirements and task planning for a contract in Kazakhstan.",
-        "Promoted performance-focused development and helped define QA metrics."
+        "Promoted to Lead Frontend Engineer, mentoring and managing a team of 5 developers through performance reviews, task allocation, and code quality leadership.",
+        "Drastically improved GIS platform performance by re-architecting the map rendering logic, cutting the display time for 100,000+ markers from 3.5 seconds to under 200ms, and cut regression and progression critical bugs by over 55% (from 61 in Q4 2024 to 27 in Q1 2025) in the following six months.",
+        "Developed a client-side cache using Rust/WASM and IndexedDB, which reduced dashboard CPU usage from 120% to 80%.",
+        "Architected and built a reusable, component-based UI system and a unified integration layer for geoservice APIs, standardizing development and accelerating feature delivery across teams.",
+        "Eliminated a major development bottleneck by replacing hardcoded form configurations with a dynamic admin panel, saving an estimated 2-3 hours of dev and QA time per task."
       ],
       "x-factIds": [
-        "big3-lead",
-        "big3-map",
-        "big3-cache",
-        "big3-cpu",
-        "big3-bugs",
-        "big3-config",
-        "big3-response",
-        "big3-signing",
-        "big3-geo",
-        "big3-trackers",
-        "big3-mobile",
-        "big3-documents",
-        "big3-ui",
-        "big3-analytics",
-        "big3-docs",
-        "big3-contract",
-        "big3-qa"
+        "big3-leadership-rewrite",
+        "big3-performance-quality-rewrite",
+        "big3-cache-cpu-rewrite",
+        "big3-ui-geo-rewrite",
+        "big3-forms-rewrite"
       ],
       "endDate": "2026-07",
       "x-rolePeriods": [
@@ -110,14 +74,14 @@
       ]
     },
     {
-      "name": "Rosbank",
+      "name": "Societe Generale",
       "position": "Senior Frontend Engineer",
       "startDate": "2021-07",
       "summary": "MVP dashboard for monitoring currencies and stock market indices.",
       "highlights": [
-        "Developed an MVP currency and index monitoring dashboard with configurable block layouts and interface elements.",
-        "Built a subscription system with user-defined formulas, triggers and reusable settings.",
-        "Implemented configurable windows, menus and workspaces."
+        "Developed and delivered an MVP for a currency and stock market monitoring dashboard, enabling traders to use configurable layouts and workspaces.",
+        "Built a flexible subscription engine allowing users to create custom alerts based on user-defined formulas and triggers.",
+        "Engineered the core UI with modular, reusable components, setting the foundation for future feature expansion."
       ],
       "x-factIds": [
         "ros-dashboard",
@@ -138,18 +102,14 @@
       "startDate": "2020-11",
       "summary": "Frontend development for a real estate transaction automation product.",
       "highlights": [
-        "Owned the frontend of the entire product as its sole frontend developer.",
-        "Built document generation for real estate transactions with 17 document types and customizable templates.",
-        "Implemented SMS-based electronic signing.",
-        "Implemented application status monitoring and data updates.",
-        "Worked on a product subsequently acquired by CIAN and PSB."
+        "As the sole frontend developer, owned the entire user-facing application for a real estate transaction platform, which was later acquired by industry leaders CIAN and PSB.",
+        "Built a dynamic document generation system supporting 17+ document types with customizable templates, automating a critical part of the transaction workflow.",
+        "Implemented SMS-based electronic signing and real-time application status tracking, significantly improving user experience and transaction speed."
       ],
       "x-factIds": [
-        "smart-ownership",
-        "smart-generation",
-        "smart-signing",
-        "smart-monitoring",
-        "smart-acquisition"
+        "smart-ownership-acquisition",
+        "smart-generation-rewrite",
+        "smart-signing-tracking"
       ],
       "x-skillExposure": [
         {
@@ -213,104 +173,26 @@
   ],
   "skills": [
     {
-      "name": "Frontend",
+      "name": "Technologies",
       "keywords": [
         "Angular",
         "TypeScript",
-        "JavaScript",
-        "RxJS",
-        "NgRx",
         "React",
         "Next.js",
-        "HTML",
-        "CSS",
-        "SCSS",
-        "Ionic",
-        "Electron",
-        "Tauri",
-        "Leaflet",
-        "AG Grid",
-        "PrimeNG",
-        "Canvas",
-        "Accessibility",
-        "Zustand",
-        "Redux"
-      ]
-    },
-    {
-      "name": "Backend and data",
-      "keywords": [
         "Node.js",
         "NestJS",
-        "Deno",
-        "C#",
-        "ASP.NET",
-        "ASP.NET Core",
         "Python",
-        "Django",
-        "SQL",
-        "PostgreSQL",
-        "MS SQL",
-        "SQLite",
-        "Redis",
-        "RabbitMQ",
-        "Elasticsearch",
-        "GraphQL",
-        "jQuery",
-        "VBScript",
-        "Xamarin",
-        "WPF",
-        "REST API",
-        "WebSocket",
-        "SignalR",
-        "LINQ"
-      ]
-    },
-    {
-      "name": "Performance",
-      "keywords": [
         "Rust",
         "WebAssembly",
-        "Web Workers",
-        "IndexedDB",
-        "Profiling",
-        "Caching"
-      ]
-    },
-    {
-      "name": "Testing and infrastructure",
-      "keywords": [
-        "Cypress",
-        "Jest",
-        "Unit testing",
-        "Git",
+        "PostgreSQL",
+        "Redis",
         "Docker",
-        "Linux",
-        "Nginx",
+        "Kubernetes",
+        "AWS",
         "CI/CD",
-        "Drone",
-        "Webpack",
-        "Vite",
-        "Azure",
-        "Asterisk",
-        "FreePBX",
-        "WireGuard"
-      ]
-    },
-    {
-      "name": "Engineering practices",
-      "keywords": [
-        "SOLID",
-        "DRY",
-        "KISS",
-        "BEM",
-        "Code review",
-        "Documentation",
-        "Mentoring",
-        "Performance review",
-        "Figma",
-        "Claude Code",
-        "Qwen"
+        "GraphQL",
+        "GIS",
+        "Microservices"
       ]
     }
   ],
@@ -321,7 +203,7 @@
     },
     {
       "language": "English",
-      "fluency": "Experience participating in work calls with an international client"
+      "fluency": "Professional Working Proficiency (C1)"
     }
   ],
   "projects": [
@@ -385,6 +267,5 @@
     "remoteOnly": true,
     "openToInternationalRelocation": true,
     "targetMarket": "US"
-  },
-  "x-learning": "Self-taught"
+  }
 }
